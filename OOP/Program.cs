@@ -65,13 +65,15 @@ namespace OOP
             //Point3D Cloned = (Point3D)P1.Clone();
             #endregion
 
+            #region Second Project
             double x = 10;
             double y = 0;
 
             Console.WriteLine($"X + Y = {Maths.Add(x, y)}");
             Console.WriteLine($"X - Y = {Maths.Subtract(x, y)}");
             Console.WriteLine($"X * Y = {Maths.Multiply(x, y)}");
-            Console.WriteLine($"X / Y = {Maths.Divide(x, y)}");
+            Console.WriteLine($"X / Y = {Maths.Divide(x, y)}"); 
+            #endregion
         }
     }
 }
